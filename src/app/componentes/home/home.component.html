@@ -1,0 +1,15 @@
+<div class="card-columns">
+  <div *ngFor="let peli of peliculas" class="card">
+    <img
+      src="{{ peli | peliculaImagen }}"
+      class="card-img-top"
+      alt="{ peli.title }}"
+    />
+    <div class="card-body">
+      <h5 class="card-title">{{ peli.title }}</h5>
+      <p class="card-text">
+        {{ peli.overview }}
+      </p>
+    </div>
+  </div>
+</div>
