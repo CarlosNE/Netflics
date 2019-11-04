@@ -8,6 +8,8 @@ import { NavbarComponent } from "./componentes/navbar/navbar.component";
 import { HttpClientModule, HttpClientJsonpModule } from "@angular/common/http";
 import { TarjetaComponent } from "./componentes/tarjeta/tarjeta.component";
 import { PeliculaImagenPipe } from './pipes/pelicula-imagen.pipe';
+import { PeliculasComponent } from './componentes/peliculas/peliculas.component';
+import { BusquedaComponent } from './componentes/busqueda/busqueda.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { PeliculaImagenPipe } from './pipes/pelicula-imagen.pipe';
     HomeComponent,
     NavbarComponent,
     TarjetaComponent,
-    PeliculaImagenPipe
+    PeliculaImagenPipe,
+    PeliculasComponent,
+    BusquedaComponent
   ],
   imports: [
     BrowserModule,
